@@ -1,0 +1,121 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EasyCal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#605D5D</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+
+        <!-- Customize the color of switches -->
+        <item name="colorSwitchThumbNormal">@color/red</item>
+        <item name="colorControlActivated">@color/red</item>
+
+        <!-- Customize the color of radio buttons -->
+        <item name="colorControlNormal">@color/red</item>
+    </style>
+
+    <!-- Protanopia application theme. -->
+    <style name="Base.Theme.EasyCal.Protanopia" parent="Base.Theme.EasyCal">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/protanopia_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#605D5D</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+
+        <!-- Customize the color of switches -->
+        <item name="colorSwitchThumbNormal">@color/protanopia_red</item>
+        <item name="colorControlActivated">@color/protanopia_red</item>
+
+        <!-- Customize the color of radio buttons -->
+        <item name="colorControlNormal">@color/protanopia_red</item>
+    </style>
+
+    <!-- Deuteranopia application theme. -->
+    <style name="Base.Theme.EasyCal.Deuteranopia" parent="Base.Theme.EasyCal">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/deuteranopia_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#605D5D</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+
+        <!-- Customize the color of switches -->
+        <item name="colorSwitchThumbNormal">@color/deuteranopia_red</item>
+        <item name="colorControlActivated">@color/deuteranopia_red</item>
+
+        <!-- Customize the color of radio buttons -->
+        <item name="colorControlNormal">@color/deuteranopia_red</item>
+    </style>
+
+    <!-- Tritanopia application theme. -->
+    <style name="Base.Theme.EasyCal.Tritanopia" parent="Base.Theme.EasyCal">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/tritanopia_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#605D5D</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+
+        <!-- Customize the color of switches -->
+        <item name="colorSwitchThumbNormal">@color/tritanopia_red</item>
+        <item name="colorControlActivated">@color/tritanopia_red</item>
+
+        <!-- Customize the color of radio buttons -->
+        <item name="colorControlNormal">@color/tritanopia_red</item>
+    </style>
+
+    <!-- Achromatopsia application theme. -->
+    <style name="Base.Theme.EasyCal.Achromatopsia" parent="Base.Theme.EasyCal">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/achromatopsia_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#605D5D</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+
+        <!-- Customize the color of switches -->
+        <item name="colorSwitchThumbNormal">@color/achromatopsia_gray</item>
+        <item name="colorControlActivated">@color/achromatopsia_gray</item>
+
+        <!-- Customize the color of radio buttons -->
+        <item name="colorControlNormal">@color/achromatopsia_gray</item>
+    </style>
+</resources>

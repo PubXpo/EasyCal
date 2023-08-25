@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BankHolidayActivity">
+
+    <!-- Top navigation app bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Material toolbar for the top navigation app bar -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Bank Holidays"
+            app:titleTextAppearance="@style/ToolbarTitleStyle">
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- Display the next holiday date and name -->
+    <TextView
+        android:id="@+id/nextHolidayTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/displays_the_title_of_the_next_holiday"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/next_holiday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout" />
+
+    <TextView
+        android:id="@+id/nextHolidayDetails"
+        android:layout_width="308dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:accessibilityLiveRegion="polite"
+        android:background="@color/red_transparent"
+        android:contentDescription="@string/next_holiday_name"
+        android:importantForAccessibility="yes"
+        android:padding="20dp"
+        android:text="@string/date_placeholder"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nextHolidayTitle" />
+
+    <View
+        android:id="@+id/dividerViewFirst"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nextHolidayDetails" />
+
+    <!-- Display a list of all upcoming holidays for the current year -->
+    <TextView
+        android:id="@+id/upcomingHolidaysTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/upcoming_holidays_list_title"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/upcoming_holidays_this_year"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerViewFirst" />
+
+    <View
+        android:id="@+id/dividerViewSecond"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="10dp"
+        android:background="#E8E8E8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upcomingHolidaysTitle" />
+
+    <ListView
+        android:id="@+id/upcomingHolidaysList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:contentDescription="@string/upcoming_holidays_list_description"
+        android:dividerHeight="1dp"
+        android:importantForAccessibility="yes"
+        android:padding="16dp"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerViewSecond" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

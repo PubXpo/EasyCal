@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">EasyCal</string>
+
+    <!-- Strings for visual condition options in Settings -->
+    <string name="action_settings">Settings</string>
+    <string-array name="visual_condition_options">
+        <item>No visual impairment</item>
+        <item>Total blindness</item>
+        <item>Protanopia</item>
+        <item>Deuteranopia</item>
+        <item>Tritanopia</item>
+        <item>Achromatopsia</item>
+    </string-array>
+
+    <!-- Strings for Images for 2 semester Months -->
+    <string-array name="month_images_2s">
+        <item>@drawable/_2s_september_2022</item>
+        <item>@drawable/_2s_october_2022</item>
+        <item>@drawable/_2s_november_2022</item>
+        <item>@drawable/_2s_december_2022</item>
+        <item>@drawable/_2s_january_2023</item>
+        <item>@drawable/_2s_february_2023</item>
+        <item>@drawable/_2s_march_2023</item>
+        <item>@drawable/_2s_april_2023</item>
+        <item>@drawable/_2s_may_2023</item>
+        <item>@drawable/_2s_june_2023</item>
+        <item>@drawable/_2s_july_2023</item>
+        <item>@drawable/_2s_august_2023</item>
+    </string-array>
+
+    <!-- Strings for Images for 3 semester months -->
+    <string-array name="month_images_3s">
+        <item>@drawable/_3s_september_2022</item>
+        <item>@drawable/_3s_october_2022</item>
+        <item>@drawable/_3s_november_2022</item>
+        <item>@drawable/_3s_december_2022</item>
+        <item>@drawable/_3s_january_2023</item>
+        <item>@drawable/_3s_february_2023</item>
+        <item>@drawable/_3s_march_2023</item>
+        <item>@drawable/_3s_april_2023</item>
+        <item>@drawable/_3s_may_2023</item>
+        <item>@drawable/_3s_june_2023</item>
+        <item>@drawable/_3s_july_2023</item>
+        <item>@drawable/_3s_august_2023</item>
+    </string-array>
+
+
+    <!-- Month titles -->
+    <string-array name="month_titles">
+        <item>September 2022</item>
+        <item>October 2022</item>
+        <item>November 2022</item>
+        <item>December 2022</item>
+        <item>January 2023</item>
+        <item>February 2023</item>
+        <item>March 2023</item>
+        <item>April 2023</item>
+        <item>May 2023</item>
+        <item>June 2023</item>
+        <item>July 2023</item>
+        <item>August 2023</item>
+    </string-array>
+
+    <!-- Month descriptions for 2 Semester View -->
+    <string-array name="month_descriptions_2s">
+        <item><b><center>September 2022 description</center></b>\n
+            \n<li>From the 26th to the 29th is the Welcome Week which begins the new academic year.</li></item>
+        <item><b><center>October 2022 description</center></b>\n
+            \n<li>From the 3rd to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>November 2022 description</center></b>\n
+            \n<li>From the 1st to the 30th, Teaching Weeks occur.</li></item>
+        <item><b><center>December 2022 description</center></b>\n
+            \n<li>From the 1st to the 16th, Teaching Weeks occur.</li>\n
+            \n<li>From the 19th to the 30th, the university is closed for holidays.</li></item>
+        <item><b><center>January 2023 description</center></b>\n
+            \n<li>From the 2nd to the 13th, Teaching Weeks occur.</li>\n
+            \n<li>From the 16th to the 20th, Exams/CW Assessments and Teaching occur.</li>\n
+            \n<li>From the 23rd to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>February 2023 description</center></b>\n
+            \n<li>From the 1st to the 28th, Teaching Weeks occur.</li></item>
+        <item><b><center>March 2023 description</center></b>\n
+            \n<li>From the 1st to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>April 2023 description</center></b>\n
+            \n<li>From the 3rd the 16th, the university is closed for holidays.</li>\n
+            \n<li>From the 17th to the 28th, Teaching Weeks occur.</li></item>
+        <item><b><center>May 2023 description</center></b>\n
+            \n<li>From the 1st to the 5th, Teaching Weeks occur.</li>\n
+            \n<li>From the 8th to the 26th, Exams/CW Assessments and Teaching occur.</li></item>
+        <item><b><center>June 2023 description</center></b>\n
+            \n<li>No scheduled items occur.</li></item>
+        <item><b><center>July 2023 description</center></b>\n
+            \n<li>From the 17th to the 28th, Graduation Weeks occur.</li></item>
+        <item><b><center>August 2023 description</center></b>\n
+            \n<li>From the 14th to the 18th, Resit Exams/Assessment occur.</li></item>
+    </string-array>
+
+    <!-- Month descriptions for 3 Semester View -->
+    <string-array name="month_descriptions_3s">
+        <item><b><center>September 2022 description</center></b>\n
+            \n<li>From the 26th to the 29th is the Welcome Week which begins the new academic year.</li></item>
+        <item><b><center>October 2022 description</center></b>\n
+            \n<li>From the 3rd to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>November 2022 description</center></b>\n
+            \n<li>From the 1st to the 30th, Teaching Weeks occur.</li></item>
+        <item><b><center>December 2022 description</center></b>\n
+            \n<li>From the 1st to the 16th, Teaching Weeks occur.</li>\n
+            \n<li>From the 19th to the 30th, the university is closed for holidays.</li></item>
+        <item><b><center>January 2023 description</center></b>\n
+            \n<li>From the 2nd to the 13th, Teaching Weeks occur.</li>\n
+            \n<li>From the 16th to the 20th, Exams/CW Assessments and Teaching occur.</li>\n
+            \n<li>From the 23rd to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>February 2023 description</center></b>\n
+            \n<li>From the 1st to the 28th, Teaching Weeks occur.</li></item>
+        <item><b><center>March 2023 description</center></b>\n
+            \n<li>From the 1st to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>April 2023 description</center></b>\n
+            \n<li>From the 3rd the 16th, the university is closed for holidays.</li>\n
+            \n<li>From the 17th to the 28th, Teaching Weeks occur.</li></item>
+        <item><b><center>May 2023 description</center></b>\n
+            \n<li>From the 1st to the 5th, Teaching Weeks occur.</li>\n
+            \n<li>From the 8th to the 26th, Exams/CW Assessments and Teaching occur.</li>\n
+            \n<li>From the 29th to the 31st, Teaching Weeks occur.</li></item>
+        <item><b><center>June 2023 description</center></b>\n
+            \n<li>From the 1st to the 30th, Teaching Weeks occur.</li></item>
+        <item><b><center>July 2023 description</center></b>\n
+            \n<li>From the 3rd to the 31st, Teaching Weeks occur.</li>\n
+            \n<li>From the 17th to the 28th, Graduation Weeks occur.</li></item>
+        <item><b><center>August 2023 description</center></b>\n
+            \n<li>From the 1st to the 11th, Teaching Weeks occur.</li>\n
+            \n<li>From the 14th to the 18th, Exams/CW Assessments and Teaching occur.</li>\n
+            \n<li>From the 21st to the 25th, Teaching Weeks occur.</li></item>
+    </string-array>
+
+    <!--    Previous button toast-->
+    <string name="first_month_message">You are on the first month</string>
+
+    <!--    Next button toast-->
+    <string name="last_month_message">"You are on the last month"</string>
+
+    <!--SettingsActivity Strings -->
+    <string name="select_annual_semesters">Select Annual Semesters:</string>
+    <string name="_2_semesters">2 Semesters</string>
+    <string name="_3_semesters">3 Semesters</string>
+    <string name="save_changes">Save \n Changes</string>
+    <string name="toggle_light_dark_mode">Toggle Light/Dark Mode:</string>
+    <string name="select_visual_condition">Select Visual Condition:</string>
+
+    <string name="annual_semester_selection_label">Label for selecting annual semesters</string>
+    <string name="semester_selection_group_label">Option group for selecting the number of semesters</string>
+    <string name="semester_2_selection_label">Option for selecting 2 semesters</string>
+    <string name="semester_3_selection_label">Option for selecting 3 semesters</string>
+    <string name="visual_condition_selection_label">Select your visual condition</string>
+    <string name="visual_condition_spinner_label">Visual condition options</string>
+
+    <string name="toggle_light_dark_mode_description">Switch to toggle between light and dark mode</string>
+    <string name="light_mode_switch_description">Switch to turn on/off light mode</string>
+    <string name="divider_description">Divider between different sections of the settings page</string>
+    <string name="save_changes_button_description">Option to save the changes made on the settings page</string>
+    <string name="toolbar_for_navigating_to_the_settings_screen">Toolbar for navigating to the Settings screen</string>
+
+    <!--Bank Holiday Strings -->
+    <string name="next_holiday">Next Holiday (Campus is Closed)</string>
+    <string name="displays_the_title_of_the_next_holiday">Displays the title of the next holiday.</string>
+    <string name="date_placeholder">31 Dec 2023 \n\nNew Year\'s Eve</string>
+    <string name="next_holiday_name">Displays the date and name of the next holiday.</string>
+    <string name="upcoming_holidays_this_year">Upcoming Holidays, This Year</string>
+    <string name="upcoming_holidays_list_title">Title for a list of upcoming holidays for the current year</string>
+    <string name="upcoming_holidays_list_description">List of upcoming holidays for the current year. Scroll up and down to navigate the list.</string>
+
+    <!--Dashboard Strings -->
+    <string name="view_calendar_button">Button to view the current academic calendar.</string>
+    <string name="calendar_icon">Icon of a calendar.</string>
+    <string name="calendar">Calendar</string>
+    <string name="view_calendar_label">Label for the view calendar button.</string>
+    <string name="view_current_academic_calendar">View Academic Calendar</string>
+    <string name="view_calendar_description">Button to view the current academic calendar. Tap to view.</string>
+
+    <string name="bank_holidays">Bank Holidays card view</string>
+    <string name="bank_holidays_icon">Icon for Bank Holidays</string>
+    <string name="bank_holidays_title">Bank Holidays</string>
+    <string name="bank_holidays_description">View Upcoming Holidays</string>
+
+    <string name="resources_card_description">Card for external disability resources</string>
+    <string name="resources_card_image_description">Image of a question mark inside a circle</string>
+    <string name="resources_card_title">Resources</string>
+    <string name="resources_card_title_description">Title for the resources card</string>
+    <string name="resources_card_separator_description">Separator line for the resources card</string>
+    <string name="resources_card_subtitle">View External Resources</string>
+    <string name="resources_card_subtitle_description">Subtitle for the resources card</string>
+
+    <string name="settings_card_description">Button to view user settings</string>
+    <string name="settings_icon_description">Icon for user settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_description">View User Settings</string>
+
+    <!-- Calendar String resources -->
+    <string name="semester_detail_description">Semester detail layout</string>
+    <string name="semester_text">X Semesters</string>
+    <string name="semester_text_description">Semester view text</string>
+    <string name="calendar_image_description">Calendar month image</string>
+    <string name="previous_month_text">Prev</string>
+    <string name="previous_month_description">Button to go to the previous month</string>
+    <string name="next_month_text">Next</string>
+    <string name="next_month_description">Button to go to the next month</string>
+
+    <string name="calendar_title_text">September 2022</string>
+    <string name="calendar_title_description">Calendar title: September 2022 </string>
+    <string name="calendar_details_text"><b><center>September 2022 description</center></b>
+        \n<li>list item.</li>\n
+        \n<li>list item.</li>\n
+        \n<li>list item.</li>\n</string>
+    <string name="calendar_details_description">Describes holidays included in this month.</string>
+
+    <!--    SplashActivity screen-->
+    <string name="easycal">EasyCal \n <small style="font-size: 6sp"><i>by Lee</i></small></string>
+    <string name="image_of_staffordshire_university_logo">image of Staffordshire University Logo</string>
+
+</resources>

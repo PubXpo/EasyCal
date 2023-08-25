@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- No visual impairment and Total blindness Colors   -->
+    <color name="red">#D60926</color>
+    <color name="red_transparent">#8DD60926</color>
+    <color name="yellow">#FFC107</color>
+    <color name="teal">#049898</color>
+    <color name="green">#057809</color>
+
+    <!-- Protanopia Colors -->
+    <color name="protanopia_red">#7B364B</color>
+    <color name="protanopia_red_transparent">#6F7B364B</color>
+    <color name="protanopia_yellow">#C1C044</color>
+    <color name="protanopia_teal">#00A7B5</color>
+    <color name="protanopia_green">#6EA95B</color>
+
+    <!-- Deuteranopia Colors -->
+    <color name="deuteranopia_red">#A53C4C</color>
+    <color name="deuteranopia_red_transparent">#6FA53C4C</color>
+    <color name="deuteranopia_yellow">#FFC857</color>
+    <color name="deuteranopia_teal">#008DCB</color>
+    <color name="deuteranopia_green">#68A04B</color>
+
+    <!-- Tritanopia Colors -->
+    <color name="tritanopia_red">#D71F4B</color>
+    <color name="tritanopia_red_transparent">#6FD71F4B</color>
+    <color name="tritanopia_yellow">#FFF275</color>
+    <color name="tritanopia_teal">#00C4D9</color>
+    <color name="tritanopia_green">#87C38F</color>
+
+    <!-- Achromatopsia Colors -->
+    <color name="achromatopsia_black">#000000</color>
+    <color name="achromatopsia_white">#FFFFFF</color>
+    <color name="achromatopsia_gray">#808080</color>
+
+
+</resources>
