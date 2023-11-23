@@ -1,36 +1,36 @@
-# EasyCal Mobile App
+# 📱 EasyCal Mobile App
 
 ## Overview
 
-EasyCal is a mobile application designed to improve accessibility for students with visual impairments. It addresses the challenge of accessing and interpreting academic schedules in PDF format, which can be problematic for those who rely on screen readers or have difficulty distinguishing between colors. The app provides an accessible alternative to traditional academic calendars and offers features to enhance the academic experience of visually impaired students.
+EasyCal is a mobile application 🚀 designed to improve accessibility for students with visual impairments. It addresses the challenge of accessing and interpreting academic schedules in PDF format, which can be problematic for those who rely on screen readers or have difficulty distinguishing between colors. The app provides an accessible alternative to traditional academic calendars and offers features to enhance the academic experience of visually impaired students.
 
-## Key Features
+## 🔑 Key Features
 
-- **Academic Calendar:** EasyCal displays the academic calendar in an accessible format with detailed descriptions of important events and dates.
+- **Academic Calendar:** EasyCal displays the academic calendar 📅 in an accessible format with detailed descriptions of important events and dates.
 
-- **Bank Holiday Integration:** Users can view UK bank holidays, helping them identify when the campus is closed.
+- **Bank Holiday Integration:** Users can view UK bank holidays 🎉, helping them identify when the campus is closed.
 
-- **Accessibility Customization:** The app allows users to customize the color scheme to accommodate specific impairments, ensuring a tailored user experience.
+- **Accessibility Customization:** The app allows users to customize the color scheme 🎨 to accommodate specific impairments, ensuring a tailored user experience.
 
-- **Screen Reader Compatibility:** All app content is designed to be compatible with screen readers, providing text descriptions for visually impaired users.
+- **Screen Reader Compatibility:** All app content is designed to be compatible with screen readers ♿, providing text descriptions for visually impaired users.
 
-- **External Resource Access:** EasyCal provides a link to the school's disability support services for easy access to additional resources and assistance.
+- **External Resource Access:** EasyCal provides a link to the school's disability support services 🌐 for easy access to additional resources and assistance.
 
-## Getting Started
+## 🚀 Getting Started
 
-There is no sign-in required required to use EasyCal, and access all of its features. The app has been tested on various Android devices, ensuring compatibility.
+No sign-in required to use EasyCal! The app has been tested on various Android devices, ensuring compatibility.
 
-## Styling
+## 🎨 Styling
 
 - EasyCal conforms to Android 11 or later platform requirements, ensuring optimal performance.
 
-- The app features both light and dark modes to accommodate user preferences.
+- The app features both light and dark modes ☀️🌙 to accommodate user preferences.
 
 - Text is formatted for readability, using clear fonts and appropriate sizes.
 
 - The app responds appropriately to changes in orientation and different screen sizes.
 
-## Data Handling
+## 🔄 Data Handling
 
 - EasyCal allows users to customize their experience, with settings such as color schemes, semester options, and light/dark mode.
 
@@ -40,7 +40,7 @@ There is no sign-in required required to use EasyCal, and access all of its feat
 
 - User settings are stored in SharedPreferences, allowing for a personalized experience.
 
-## Demonstrations
+## 🎥 Demonstrations
 
 - EasyCal offers a well-designed form with different field types, including radio buttons, drop-down spinners, and toggle switches.
 
